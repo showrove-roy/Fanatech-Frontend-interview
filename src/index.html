@@ -21,10 +21,13 @@
     <title>FoodTime</title>
   </head>
   <body class="">
+    <!-- Header section start -->
     <header
       class="primaryBGColor border border-accent-content sticky top-0 backdrop-blur-md z-50">
+      <!-- navbar start -->
       <nav class="navbar maxW lg:py-2">
         <div class="navbar-start">
+          <!-- responsive dropdown icon -->
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
               <svg
@@ -40,6 +43,8 @@
                   d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </label>
+
+            <!-- responsive menu -->
             <ul
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 fntPoppins">
@@ -97,6 +102,8 @@
             </li>
           </ul>
         </div>
+
+        <!-- navbar end part -->
         <div class="navbar-end">
           <a
             href="#"
@@ -118,6 +125,8 @@
       </nav>
     </header>
 
+    <!-- header end -->
+
     <!-- main section -->
     <main>
       <!-- Hero section start-->
@@ -129,26 +138,31 @@
               class="max-w-[200px]"
               alt="" />
           </div>
-          <div class="lg:py-28 py-16 flex lg:flex-row flex-col-reverse lg:justify-between lg:items-center gap-y-5">
+          <div
+            class="lg:py-28 py-16 flex lg:flex-row flex-col-reverse lg:justify-between lg:items-center gap-y-5">
+
+            <!-- hero's left section  -->
             <div class="lg:w-1/2 w-full max-w-2xl mx-auto">
               <h1
-                class="lg:text-6xl text-3xl lg:text-left text-center font-bold text-primary leading-tight z-10 mt-10">
+                class="lg:text-6xl text-3xl lg:text-left text-center font-bold text-primary lg:leading-snug z-10 mt-10">
                 Order food online from your favourite local restaurants<span
                   class="text-secondary"
                   >.</span
                 >
               </h1>
-              <p class="text-neutral lg:text-2xl md:text-xl text-lg font-semibold my-7 fntPoppins text-center lg:text-left">
+              <p
+                class="text-neutral lg:text-2xl md:text-xl text-lg font-semibold my-7 fntPoppins text-center lg:text-left">
                 Freshly made food delivered to your door.
               </p>
               <div class="lg:max-w-xl max-w-lg lg:mx-0 mx-auto">
                 <div
                   class="border-l border-t border-b border-2 border-[rgba(57,108,3,0.3)] rounded-full flex items-center">
-                  <i class="fa-solid fa-circle md:text-5xl sm:text-3xl text-lg text-secondary lg:m-2 m-1"></i>
+                  <i
+                    class="fa-solid fa-circle md:text-5xl sm:text-3xl text-lg text-secondary lg:m-2 m-1"></i>
                   <input
                     type="text"
                     placeholder="Enter your location"
-                    class="input w-full bg-transparent outline-none focus:outline-none fntPoppins md:text-[22px]  sm:px-4 p-0 border-none" />
+                    class="input w-full bg-transparent outline-none focus:outline-none fntPoppins md:text-[22px] sm:px-4 p-0 border-none" />
                   <button
                     class="btn btn-primary lg:gap-2 gap-1 normal-case rounded-full md:px-[50px] px-5 md:py-8 py-3 flex-nowrap ml-2">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -157,34 +171,41 @@
                 </div>
               </div>
             </div>
+
+            <!-- hero's right section -->
             <div class="lg:w-1/2 w-full">
               <div class="relative lg:ml-10 max-w-xl mx-auto">
-                <div class="absolute sm:-top-14 md:-top-12 -bottom-10 -left-4 lg:-left-14 md:-left-12 -z-10">
+                <div
+                  class="absolute sm:-top-14 md:-top-12 -bottom-10 -left-4 lg:-left-14 md:-left-12 -z-10">
                   <img
                     src="../assets/NicePng_plate-of-food-png_546030 1.png"
                     class="max-w-[200px] w-40 md:w-full sm:w-44"
                     alt="" />
                 </div>
-                <div class="absolute -top-16 md:right-5 -right-0 -z-10 ">
+                <div class="absolute -top-16 md:right-5 -right-0 -z-10">
                   <img
                     src="../assets/—Pngtree—hand-painted noise green leaf element_4054582 1.png"
                     class="max-w-[228px] w-40 md:w-full sm:w-48"
                     alt="" />
                 </div>
-                <div class="absolute -top-10 sm:-top-12 sm:left-16  sm:translate-x-1/2	mx-auto">
+                <div
+                  class="absolute -top-10 sm:-top-12 sm:left-16 sm:translate-x-1/2 mx-auto">
                   <div
                     class="bg-[linear-gradient(180deg,#FFFFFF,0%,rgba(255,255,255,0.4)100%)] px-8 py-3 rounded-lg backdrop-blur-sm border fntPoppins">
                     <h3 class="lg:text-4xl text-2xl font-bold text-secondary">
                       <i class="fa-solid fa-check-to-slot"></i> 200k+
                     </h3>
                     <p
-                      class="lg:text-lg text-sm  font-semibold text-center text-[#838383] mt-1">
+                      class="lg:text-lg text-sm font-semibold text-center text-[#838383] mt-1">
                       People Delivered
                     </p>
                   </div>
                 </div>
-               
-                <img src="../assets/image 1.png" class="max-w-lg w-full z-50 mx-auto" alt="" />
+
+                <img
+                  src="../assets/image 1.png"
+                  class="max-w-lg w-full z-50 mx-auto"
+                  alt="" />
               </div>
             </div>
           </div>
@@ -193,24 +214,33 @@
       <!-- Hero section end -->
 
       <!-- delivery section start -->
-      <section class="hidden">
-        <div class="maxW py-24 flex items-center">
-          <div class="w-1/2">
-            <h4 class="text-[50px] text-primary font-bold">
-              Explore your <br />favourite city’s food.
+      <section>
+        <div
+          class="maxW md:py-24 py-16 flex md:flex-row flex-col-reverse items-center">
+          <!-- delivery section's left section -->
+          <div class="md:w-1/2 w-full">
+            <h4
+              class="lg:text-5xl md:text-4xl sm:text-3xl text-xl md:text-left text-center text-primary font-bold lg:leading-relaxed">
+              Explore your <br />
+              favourite city’s food.
             </h4>
-            <p class="py-3 text-accent fntPoppins text-lg mr-5">
+            <p
+              class="py-3 text-accent fntPoppins md:text-lg sm:text-base text-sm md:mr-5 md:text-left text-center">
               Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh
               tristique. Non ligula tristique ut ut libero sit convallis
               maecenas. At egestas auctor porta mattis.
             </p>
-            <button
-              class="btn btn-primary gap-2 normal-case rounded-full px-[50px] py-4 flex-nowrap">
-              Explore
-              <i class="fa-solid fa-arrow-right"></i>
-            </button>
+            <div class="flex justify-center md:justify-start">
+              <button
+                class="btn btn-primary gap-2 normal-case rounded-full px-[50px] py-4 flex-nowrap">
+                Explore
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
           </div>
-          <div class="w-1/2 imgBG relative overflow-hidden">
+
+          <!-- delivery section's right section -->
+          <div class="md:w-1/2 w-full imgBG relative overflow-hidden">
             <img
               src="../assets/manoncycle.png"
               class="absolute"
