@@ -7,20 +7,50 @@
     font-family: "Merienda", cursive;
     color: #676767;
   }
-  button{
+  button {
     color: #fff !important;
-    font-family: 'Poppins', sans-serif !important; 
+    font-family: "Poppins", sans-serif !important;
   }
 }
 @layer components {
   .primaryBGColor {
-    background: rgba(107, 145, 66, 0.10);
-
+    background: rgba(107, 145, 66, 0.1);
   }
   .maxW {
-    @apply max-w-7xl mx-auto lg:px-5 px-3 ;
+    @apply max-w-7xl mx-auto lg:px-5 px-3;
   }
-  .fntPoppins{
-    font-family: 'Poppins', sans-serif !important; 
+  .fntPoppins {
+    font-family: "Poppins", sans-serif !important;
+  }
+  .imgBG {
+    background: url("../assets/bg.png") center center/cover;
+  }
+  #manAnimation {
+    position: relative;
+    animation: mymove 10s infinite ease-in-out;
+  }
+  @keyframes mymove {
+    0% {
+      left: -300px;
+      opacity: 0.1;
+    }
+    5% {
+      opacity: 0.5;
+    }
+    10% {
+      opacity: 1;
+    }
+
+    90% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 0.5;
+    }
+
+    100% {
+      left: 450px;
+      opacity: 0;
+    }
   }
 }
