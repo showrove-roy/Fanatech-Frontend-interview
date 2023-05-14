@@ -10,16 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet" />
 
-      <!--Font awesome link  -->
-      <script src="https://kit.fontawesome.com/92261a1a0e.js" crossorigin="anonymous"></script>
+    <!--Font awesome link  -->
+    <script
+      src="https://kit.fontawesome.com/92261a1a0e.js"
+      crossorigin="anonymous"></script>
 
     <title>FoodTime</title>
   </head>
   <body class="">
-    <header class="primaryBGColor border border-accent-content">
+    <header
+      class="primaryBGColor border border-accent-content sticky top-0 backdrop-blur-md z-50">
       <nav class="navbar maxW py-3">
         <div class="navbar-start">
           <div class="dropdown">
@@ -40,12 +43,12 @@
             <ul
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="#" >Home</a></li>
-              <li><a href="#" >Blog</a></li>
-              <li><a href="#" >About us</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About us</a></li>
               <li tabindex="0">
-                <a href="#"  class="justify-between">
-                 EN
+                <a href="#" class="justify-between">
+                  EN
                   <svg
                     class="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -57,25 +60,25 @@
                   </svg>
                 </a>
                 <ul class="p-2">
-                  <li><a href="#" >EN</a></li>
-                  <li><a href="#" >BN</a></li>
+                  <li><a href="#">EN</a></li>
+                  <li><a href="#">BN</a></li>
                 </ul>
               </li>
-              
             </ul>
           </div>
           <!-- LOGO -->
-          <a href="#"  class="btn btn-ghost normal-case text-3xl text-primary">FoodTime</a>
+          <a href="#" class="btn btn-ghost normal-case text-3xl text-primary"
+            >FoodTime</a
+          >
         </div>
         <div class="navbar-center hidden lg:flex">
-
-            <!-- Large screen menu -->
+          <!-- Large screen menu -->
           <ul class="menu menu-horizontal px-1">
-            <li><a href="#" >Home</a></li>
-            <li><a href="#" >Blog</a></li>
-            <li><a href="#" >About us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About us</a></li>
             <li tabindex="0">
-              <a href="#" >
+              <a href="#">
                 EN
                 <svg
                   class="fill-current"
@@ -88,27 +91,103 @@
                 </svg>
               </a>
               <ul class="p-2">
-                <li><a href="#" >EN</a></li>
-                <li><a href="#" >BN</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">BN</a></li>
               </ul>
             </li>
-           
           </ul>
         </div>
         <div class="navbar-end">
-          <a href="#"  class="btn btn-primary rounded-full normal-case px-10 mr-6">Login</a>
-          <a href="#">
+          <a
+            href="#"
+            class="btn btn-primary rounded-full normal-case md:px-10 lg:mr-6 mr-0 text-white fntPoppins"
+            >Login</a
+          >
+          <a href="#" class="hidden lg:block">
             <div class="indicator">
-                <span class="indicator-item badge badge-secondary top-1 right-1 text-white text-xs font-thin">2</span> 
-                <button class="btn btn-circle btn-primary "><i class="fa-solid fa-cart-shopping"></i></button>
-              </div>
+              <span
+                class="indicator-item badge badge-secondary top-1 right-1 text-white text-xs font-thin"
+                >2</span
+              >
+              <button class="btn btn-circle btn-primary">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
           </a>
-          
         </div>
       </nav>
     </header>
+
+    <!-- main section -->
     <main>
-      <h1 class="text-3xl primaryColor">hello world</h1>
+      <!-- Hero section -->
+      <section class="primaryBGColor">
+        <div class="maxW relative">
+          <div class="absolute -top-8 left-0 -z-10">
+            <img
+              src="../assets/—Pngtree—hand-painted noise green leaf element_4054582 1-1.png"
+              class="max-w-[200px]"
+              alt="" />
+          </div>
+          <div class="py-28 flex justify-between items-center">
+            <div class="w-1/2">
+              <h1 class="text-6xl font-bold text-primary leading-tight z-10 mt-10">
+                Order food online from your favourite local restaurants<span
+                  class="text-secondary"
+                  >.</span
+                >
+              </h1>
+              <p class="text-neutral text-2xl font-semibold my-7 fntPoppins">
+                Freshly made food delivered to your door.
+              </p>
+              <div class="">
+                <div
+                  class="border-l border-t border-b border-2 border-[rgba(57,108,3,0.3)] rounded-full flex items-center">
+                  <i class="fa-solid fa-circle text-5xl text-secondary m-2"></i>
+                  <input
+                    type="text"
+                    placeholder="Enter your location"
+                    class="input w-full bg-transparent outline-none focus:outline-none fntPoppins text-[22px]" />
+                  <button
+                    class="btn btn-primary gap-2 normal-case rounded-full px-[50px] py-8 flex-nowrap ml-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2">
+              <div class="relative ml-10">
+                <div class="absolute -top-6 -left-24 -z-10">
+                  <img
+                    src="../assets/NicePng_plate-of-food-png_546030 1.png"
+                    class="max-w-[200px]"
+                    alt="" />
+                </div>
+                <div class="absolute -top-16 left-1/4">
+                  <div
+                    class="bg-[linear-gradient(180deg,#FFFFFF,0%,rgba(255,255,255,0.4)100%)] px-8 py-3 rounded-lg backdrop-blur-sm border fntPoppins">
+                    <h3 class="text-[40px] font-bold text-secondary">
+                      <i class="fa-solid fa-check-to-slot"></i> 200k+
+                    </h3>
+                    <p
+                      class="text-xl font-semibold text-center text-[#838383] mt-1">
+                      People Delivered
+                    </p>
+                  </div>
+                </div>
+                <div class="absolute -top-16 right-14 -z-10">
+                  <img
+                    src="../assets/—Pngtree—hand-painted noise green leaf element_4054582 1.png"
+                    class="max-w-[228px]"
+                    alt="" />
+                </div>
+                <img src="../assets/image 1.png" class="max-w-lg z-50" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

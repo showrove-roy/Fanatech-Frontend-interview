@@ -7,6 +7,10 @@
     font-family: "Merienda", cursive;
     color: #676767;
   }
+  button{
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif !important; 
+  }
 }
 @layer components {
   .primaryBGColor {
@@ -15,5 +19,8 @@
   }
   .maxW {
     @apply max-w-7xl mx-auto lg:px-5 px-3 ;
+  }
+  .fntPoppins{
+    font-family: 'Poppins', sans-serif !important; 
   }
 }
